@@ -59,7 +59,7 @@ h4 {
     color: #42210b;
 }
 
-.action-button {
+#play-button {
     background: #F0C500;
     border: 2px #008868 outset;
     font-family: Amarante, serif;
