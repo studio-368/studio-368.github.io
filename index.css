@@ -19,9 +19,16 @@
 @import url(https://fonts.googleapis.com/css?family=Amarante|Crimson+Text|Handlee);
 
 .center {
-    color: black;
     text-align: center;
     display: block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 85%;
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    padding-left: 12%;
 }
 
 li {
@@ -29,9 +36,13 @@ li {
 }
 
 img {
-    top: 15px;
-    right:15px;
-    position: absolute;
+    border: #42210b solid 3px;
+}
+
+img#rating {
+    float:right;
+    margin-bottom: 20px;
+    border: none;
 }
 
 h4 {
@@ -39,31 +50,42 @@ h4 {
 }
 
 h1 {
-    font-size: 4em;
-    margin: 25px;
+    font-size: 48pt;
+    margin: 75px;
+    color: #8C3541;
 }
 
-h3 {
-    font-size: 2em;
+h4 {
+    color: #42210b;
 }
 
 .action-button {
-    background: #DAA89B;
+    background: #F0C500;
     border: 2px #008868 outset;
     font-family: Amarante, serif;
     font-size: 18pt;
     padding: 12pt;
 }
 
+.action-button:hover {
+    background: #DAA89B;
+}
+
 .action-button:active {
+    background: #F0C500;
     border-style: solid;
 }
 
+.right {
+    float:right;
+}
+
 body {
-    background-image: url("page.png");
+    background: url("page.png") fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family:'Crimson Text',serif;
+    font-size: large;
 }
