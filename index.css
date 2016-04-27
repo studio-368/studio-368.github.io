@@ -1,0 +1,64 @@
+/*
+ * Copyright 2016 Traveler's Notebook: Monster Tales project authors
+ *
+ * This file is part of monsters
+ *
+ * monsters is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * monsters is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with monsters.  If not, see <http://www.gnu.org/licenses/>.
+ */
+@import url(https://fonts.googleapis.com/css?family=Amarante|Crimson+Text|Handlee);
+
+.center {
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+li {
+    color: black;
+}
+
+img {
+    top: 15px;
+    right:15px;
+    position: absolute;
+}
+
+h4 {
+    font-size: 1.5em
+}
+
+h1 {
+    font-size: 4em;
+    margin: 25px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+button {
+    background: #DAA89B;
+    border: #008868;
+    border-style: solid;
+    border-width: 2px;
+}
+
+body {
+    background-image: url("page.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:'Crimson Text',serif;
+}
