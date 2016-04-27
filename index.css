@@ -1,0 +1,91 @@
+/*
+ * Copyright 2016 Traveler's Notebook: Monster Tales project authors
+ *
+ * This file is part of monsters
+ *
+ * monsters is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * monsters is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with monsters.  If not, see <http://www.gnu.org/licenses/>.
+ */
+@import url(https://fonts.googleapis.com/css?family=Amarante|Crimson+Text|Handlee);
+
+.center {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 85%;
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    padding-left: 12%;
+}
+
+li {
+    color: black;
+}
+
+img {
+    border: #42210b solid 3px;
+}
+
+img#rating {
+    float:right;
+    margin-bottom: 20px;
+    border: none;
+}
+
+h4 {
+    font-size: 1.5em
+}
+
+h1 {
+    font-size: 48pt;
+    margin: 75px;
+    color: #8C3541;
+}
+
+h4 {
+    color: #42210b;
+}
+
+#play-button {
+    background: #F0C500;
+    border: 2px #008868 outset;
+    font-family: Amarante, serif;
+    font-size: 18pt;
+    padding: 12pt;
+}
+
+.action-button:hover {
+    background: #DAA89B;
+}
+
+.action-button:active {
+    background: #F0C500;
+    border-style: solid;
+}
+
+.right {
+    float:right;
+}
+
+body {
+    background: url("page.png") fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:'Crimson Text',serif;
+    font-size: large;
+}
